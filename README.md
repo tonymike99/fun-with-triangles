@@ -10,3 +10,5 @@ Problem Statement
         Isosceles, Equilateral
     Calculate hypotenuse of a triangle given the other two sides.
         Similarly, calculate area of a triangle given the base and height of a triangle.
+
+Access it on https://triangle-resources.netlify.app
