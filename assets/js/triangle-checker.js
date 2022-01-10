@@ -1,6 +1,6 @@
-let btn = document.querySelector('#btn');
+const btn = document.querySelector('#btn');
 
-function logic() {
+const logic = () => {
     let angle1 = document.querySelector('#angle1Id').value;
     let angle2 = document.querySelector('#angle2Id').value;
     let angle3 = document.querySelector('#angle3Id').value;
@@ -28,6 +28,6 @@ function logic() {
             'The sum of the angles entered is equal to 180 degrees. \nHence, it is a triangle. ✔';
         return;
     }
-}
+};
 
 btn.addEventListener('click', logic);

@@ -1,10 +1,10 @@
-let btn = document.querySelector('#btn');
+const btn = document.querySelector('#btn');
 
-function logic() {
-    let quiz = document.getElementsByClassName('quiz');
+const logic = () => {
+    const quiz = document.getElementsByClassName('quiz');
     // console.log(quiz.length);
 
-    let correctAnswers = ['90°', 'Right angled', 'One right angle'];
+    const correctAnswers = ['90°', 'Right angled', 'One right angle'];
 
     let score = 0;
     let j = 0;
@@ -26,6 +26,6 @@ function logic() {
     }
 
     output.innerText = `Your score is ${score} ✔`;
-}
+};
 
 btn.addEventListener('click', logic);

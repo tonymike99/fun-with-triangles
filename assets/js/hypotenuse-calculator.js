@@ -1,6 +1,6 @@
-let btn = document.querySelector('#btn');
+const btn = document.querySelector('#btn');
 
-function logic() {
+const logic = () => {
     let base = document.querySelector('#baseId').value;
     let perpendicular = document.querySelector('#perpendicularId').value;
     let output = document.querySelector('#output');
@@ -21,6 +21,6 @@ function logic() {
         output.innerText = `The length of the hypotenuse is ${result} cm.  ✔`;
         return;
     }
-}
+};
 
 btn.addEventListener('click', logic);

@@ -1,6 +1,6 @@
-let btn = document.querySelector('#btn');
+const btn = document.querySelector('#btn');
 
-function logic() {
+const logic = () => {
     let base = document.querySelector('#baseId').value;
     let height = document.querySelector('#heightId').value;
     let output = document.querySelector('#output');
@@ -17,10 +17,10 @@ function logic() {
     } else {
         base = parseInt(base);
         height = parseInt(height);
-        let result = 0.5 * base * height;
+        const result = 0.5 * base * height;
         output.innerText = `The area of the triangle is ${result} square cm.  ✔`;
         return;
     }
-}
+};
 
 btn.addEventListener('click', logic);

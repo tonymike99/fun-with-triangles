@@ -1,4 +1,4 @@
-let common = document.querySelector('#common');
+const common = document.querySelector('#common');
 common.innerHTML = `
     <ul>
         <li><a href="/index.html">Home</a></li>
